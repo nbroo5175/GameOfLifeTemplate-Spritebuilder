@@ -9,6 +9,10 @@
 #import "CCSprite.h"
 
 @interface Grid : CCSprite
+- (void)evolveStep;
+@property (nonatomic, assign) int countNeighbors;
+@property (nonatomic, assign) int updateCreatures;
+@property (nonatomic, assign) BOOL isIndexValid;
 @property (nonatomic, assign) int totalAlive;
 @property (nonatomic, assign) int generation;
 @end
