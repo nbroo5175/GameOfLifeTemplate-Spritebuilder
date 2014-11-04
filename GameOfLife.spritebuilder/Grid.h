@@ -15,4 +15,6 @@
 @property (nonatomic, assign) BOOL isIndexValid;
 @property (nonatomic, assign) int totalAlive;
 @property (nonatomic, assign) int generation;
+
+
 @end
