@@ -181,7 +181,7 @@ Grid {
                                 if (currentCreature.livingNeighbors == 3)
                                 {
                                     currentCreature.isAlive = TRUE;
-                                } else(currentCreature.livingNeighbors <= 1 or >= 4);{
+                                } else(currentCreature.livingNeighbors <= 1  >= 4);{
                                     currentCreature.isAlive = FALSE;
                                 
                                 }
